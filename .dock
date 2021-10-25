@@ -1,0 +1,10 @@
+#!/bin/bash                                                                                                                                                                           
+
+array=( Slack Tidal Firefox )
+
+for i in "${array[@]}"
+do
+        dockutil --add /Applications/$i.app
+done 
+
+killall Dock
