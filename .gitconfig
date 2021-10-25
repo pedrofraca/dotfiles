@@ -1,3 +1,5 @@
 #!/bin/bash
 
 git config --global init.defaultBranch main
+git config --global user.name "Pedro Fraca"
+git config --global user.email pedro.fraca@hey.com
