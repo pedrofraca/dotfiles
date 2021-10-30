@@ -1,6 +1,5 @@
 #!/bin/bash
-# declare an array called array and define 3 vales
-array=( slack emacs tidal firefox dockutil)
+array=( slack emacs tidal firefox dockutil docker keybase kubectl postman visual-studio-code )
 for i in "${array[@]}"
 do
 	brew install $i
