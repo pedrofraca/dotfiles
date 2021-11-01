@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "Creating directory structure"
+
+mkdir $HOME/Documents/workspace
+mkdir $HOME/Documents/workspace/personal

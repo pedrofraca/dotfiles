@@ -15,3 +15,4 @@ fi
 source .brew
 source .gitconfig
 source .macos
+source .setup
